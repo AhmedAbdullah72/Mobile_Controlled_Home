@@ -1,5 +1,6 @@
 # Mobile_Controlled_Home
 Wazeefa Tech Scholarship AVR Project
+
 The system enables home control via a mobile phone app using Bluetooth.
 Features:
 
