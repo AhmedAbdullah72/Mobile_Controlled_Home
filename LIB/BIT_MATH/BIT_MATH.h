@@ -4,8 +4,8 @@
 /***************  SWC    :BIT_MATH.h     **********************/
 /*************** Version : 1.0            **********************/
 /***************************************************************/
-#ifndef SERVICES_BIT_MATH_BIT_MATH_H_
-#define SERVICES_BIT_MATH_BIT_MATH_H_
+#ifndef BIT_MATH_H_
+#define BIT_MATH_H_
 
 //function to set a bit to 1
 #define SET_BIT(REG_Name, BIT_No) (REG_Name |= (1<<BIT_No))
@@ -19,4 +19,4 @@
 //function to read a bit
 #define GET_BIT(REG_Name, BIT_No) ((REG_Name>>BIT_No) & 1)
 
-#endif /* SERVICES_BIT_MATH_BIT_MATH_H_ */
+#endif /* BIT_MATH_H_ */
